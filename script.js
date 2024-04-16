@@ -59,7 +59,7 @@ function generateRandomText() {
 
   // Set font size
   textElement.style.fontSize = fontSize;
-  textElement.style.color = 'lightpink';
+  textElement.style.color = 'white';
   
 
   // Append to body
