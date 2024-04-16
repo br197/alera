@@ -46,8 +46,8 @@ function generateRandomText() {
   let overlap = false;
   do {
     // Set random position within available space
-    x = Math.random() * ((window.innerWidth-600) - textElement.clientWidth);
-    y = Math.random() * ((window.innerHeight+200)  - textElement.clientHeight);
+    x = Math.random() * ((window.innerWidth) - textElement.clientWidth);
+    y = Math.random() * ((window.innerHeight)  - textElement.clientHeight);
 
     // Set position
     textElement.style.left = `${x}px`;
